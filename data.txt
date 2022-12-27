@@ -1,0 +1,38 @@
+2 data modals
+    1. user login/signup
+        emailid - @compulsary
+        password - number, char leng -8
+        confirm pasword - match with password
+    2. user contacts
+        name - string
+        designation - string
+        company - string
+        industry -string
+        emailid - @compulsary
+        ph number - number
+        country - string
+
+Day2
+React componenets
+    login
+    signup
+    contacts
+    delete.jsx
+    import.jsx
+
+Functionality
+    signin -> success -> contact page
+            -> failure -> if mail not registered -> signup page
+                        -> mail or password wrong -> alert for correct details
+    signup -> success -> add data to db -> signin redirect
+            -> failure -> mail or password wrong -> alert for correct details
+    contacts
+        search - automatically prompt for user data -> search in db - get request - replace conatact details to searched contact
+            - if search filed empty, must display original data
+
+APIs
+get - contacts data retrivel
+    - having search
+post - users when added to db
+     - when adding contacts
+     - send contact details of which we need to delete
